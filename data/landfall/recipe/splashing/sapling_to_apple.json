@@ -1,0 +1,13 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_sapling"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:apple"
+    }
+  ]
+}

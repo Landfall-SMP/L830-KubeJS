@@ -1,0 +1,27 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:brain_coral"
+    },
+    {
+      "item": "minecraft:brain_coral"
+    },
+    {
+      "item": "minecraft:brain_coral"
+    },
+    {
+      "item": "minecraft:brain_coral"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:brain_coral_block"
+    }
+  ]
+}

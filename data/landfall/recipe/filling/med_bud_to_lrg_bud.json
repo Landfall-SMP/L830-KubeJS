@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:medium_amethyst_bud"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 250,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:large_amethyst_bud"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "minecraft:fire_coral"
+    },
+    {
+      "item": "minecraft:fire_coral"
+    },
+    {
+      "item": "minecraft:fire_coral"
+    },
+    {
+      "item": "minecraft:fire_coral"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "minecraft:water"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:fire_coral_block"
+    }
+  ]
+}
