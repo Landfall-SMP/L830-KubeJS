@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "landfallessentials:extracted_lapis_clump"
+    }
+  ],
+  "processing_time": 250,
+  "results": [
+    {
+      "chance": 0.8,
+      "id": "landfallessentials:crushed_lapis_clump"
+    }
+  ]
+}

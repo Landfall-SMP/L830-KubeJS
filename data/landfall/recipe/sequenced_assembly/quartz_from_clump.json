@@ -1,0 +1,80 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "landfallessentials:crushed_emerald_clump"
+  },
+  "loops": 2,
+  "results": [
+    {
+      "id": "minecraft:emerald",
+      "count": 4,
+      "chance": 9.0
+    },
+    {
+      "chance": 0.2,
+      "id": "minecraft:tuff"
+    },
+    {
+      "chance": 0.2,
+      "id": "minecraft:cobblestone"
+    },
+    {
+      "chance": 0.2,
+      "id": "minecraft:cobbled_deepslate"
+    },
+    {
+      "chance": 0.2,
+      "id": "minecraft:blue_dye"
+    }
+
+  ],
+  "sequence": [
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "landfallessentials:crushed_emerald_clump"
+        }
+      ],
+      "results": [
+        {
+          "id": "landfallessentials:crushed_emerald_clump"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "landfallessentials:crushed_emerald_clump"
+        }
+      ],
+      "results": [
+        {
+          "id": "landfallessentials:crushed_emerald_clump"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "landfallessentials:crushed_emerald_clump"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 500,
+          "fluid": "minecraft:water"
+        }
+      ],
+      "results": [
+        {
+          "id": "landfallessentials:crushed_emerald_clump"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "landfallessentials:crushed_emerald_clump"
+  }
+}

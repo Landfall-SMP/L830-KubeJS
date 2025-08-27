@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "landfallessentials:crushed_zinc_clump"
+    }
+  ],
+  "results": [
+
+    {
+      "count": 4,
+      "id": "minecraft:quartz"
+    },
+    {
+      "amount": 10,
+      "id": "minecraft:lava"
+    }
+  ]
+}
