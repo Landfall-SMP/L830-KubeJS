@@ -1,0 +1,12 @@
+ItemEvents.entityInteracted('minecraft:bucket', event => {
+  if(event.target.type != 'minecraft:goat') return
+  event.item.count--
+  event.player.giveInHand('minecraft:milk_bucket')
+  event.target.playSound('minecraft:entity.cow.milk')
+})
+LootJS.lootTables(event => {
+    event.modifyEntityTables("minecraft:goat").createPool(pool => {
+                pool.addEntry(
+            LootEntry.of("minecraft:mutton").setCount([1, 3]))
+})
+    })
