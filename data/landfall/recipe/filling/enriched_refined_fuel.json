@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "landfallessentials:refined_fuel"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "landfallessentials:naphtha"
+    }
+  ],
+  "results": [
+    {
+      "id": "landfallessentials:enriched_refined_fuel"
+    }
+  ]
+}

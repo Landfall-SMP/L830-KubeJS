@@ -1,0 +1,68 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "tag": "c:leathers"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "minecraft:phantom_membrane"
+    }
+  ],
+  "sequence": [
+   
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:rotten_flesh"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:rotten_flesh"
+        }
+      ]
+    },
+     {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "minecraft:rotten_flesh"
+        },
+         {
+      "type": "fluid_stack",
+      "fluid": "create:potion",
+      "amount": 50,
+      "components": {
+        "create:potion_fluid_bottle_type": "lingering",
+        "minecraft:potion_contents": {
+          "potion": "minecraft:invisibility"
+        }
+      }
+    }
+      ],
+      "results": [
+        {
+          "id": "minecraft:rotten_flesh"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:rotten_flesh"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:rotten_flesh"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:rotten_flesh"
+  }
+}

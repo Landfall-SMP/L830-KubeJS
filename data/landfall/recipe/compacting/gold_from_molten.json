@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "amount": 1000,
+      "fluid": "kubejs:molten_gold"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:gold_block",
+      "count": 1
+    }
+  ]
+}

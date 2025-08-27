@@ -1,0 +1,28 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "landfallessentials:crude_oil"
+    }
+  ],
+  "results": [
+    {
+      "amount": 30,
+      "id": "landfallessentials:heavy_oil"
+    },
+    {
+      "amount": 30,
+      "id": "landfallessentials:kerosene"
+    },
+    {
+      "id": "landfallessentials:raw_hydrocarbons"
+    }
+
+  ]
+}

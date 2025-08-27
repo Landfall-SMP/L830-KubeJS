@@ -1,0 +1,16 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "type": "fluid_stack",
+      "amount": 1000,
+      "fluid": "kubejs:molten_copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:copper_block",
+      "count": 1
+    }
+  ]
+}

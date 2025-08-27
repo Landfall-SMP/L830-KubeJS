@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+
+    {
+      "item": "landfallessentials:distilled_hydrocarbons"
+    },
+
+    {
+      "type": "fluid_stack",
+      "fluid": "create:potion",
+      "amount": 50,
+      "components": {
+
+        "minecraft:potion_contents": {
+          "potion": "minecraft:mundane"
+        }
+      }
+    }
+  ],
+  "results": [
+    {
+      "id": "landfallessentials:refined_fuel"
+    }
+  ]
+}
