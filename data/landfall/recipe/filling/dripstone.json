@@ -1,0 +1,19 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:pointed_dripstone"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "create:tea"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:pointed_dripstone",
+      "count": 3
+    }
+  ]
+}

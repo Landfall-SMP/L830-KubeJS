@@ -1,0 +1,33 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 250,
+    "ingredient": {
+      "tag": "#c:lava"
+    },
+    "unit": "millibuckets"
+  },
+  "category": "meals",
+  "fermenting_time": 1200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+  ],
+  "result": {
+    "count": 8,
+    "id": "minecraft:basalt"
+  },
+  "temperature": 1,
+  "unit": "millibuckets"
+}

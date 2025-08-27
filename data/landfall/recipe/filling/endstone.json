@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 5,
+      "fluid": "brewinandchewin:flaxen_cheese"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:end_stone"
+    }
+  ]
+}

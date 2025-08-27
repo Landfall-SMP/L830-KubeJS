@@ -1,0 +1,62 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create:limestone"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "id": "create:ochrum",
+      "count": 2
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create:limestone"
+        },
+        {
+          "type": "fluid_stack",
+          "amount": 50,
+          "fluid": "create:honey"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:limestone"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:limestone"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:limestone"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "create:limestone"
+        }
+      ],
+      "results": [
+        {
+          "id": "create:limestone"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create:limestone"
+  }
+}

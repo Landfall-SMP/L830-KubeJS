@@ -1,0 +1,20 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:bone_block"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 1000,
+      "fluid": "minecraft:milk"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:calcite",
+      "count": 8
+    }
+  ]
+}

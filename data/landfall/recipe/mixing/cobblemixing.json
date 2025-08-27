@@ -1,0 +1,30 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+
+    {
+      "type": "fluid_stack",
+      "amount": 500,
+      "fluid": "minecraft:water"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 500,
+      "fluid": "minecraft:lava"
+    }
+  ],
+  "results": [
+    {
+      "amount": 500,
+      "id": "minecraft:lava"
+    },
+    {
+      "amount": 500,
+      "id": "minecraft:water"
+    },
+    {
+      "count": 16,
+      "id": "minecraft:cobblestone"
+    }
+  ]
+}
