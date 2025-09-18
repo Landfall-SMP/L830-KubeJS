@@ -1,4 +1,8 @@
 ItemEvents.entityInteracted('minecraft:bucket', event => {
+console.info(event.target.components) })
+
+
+ItemEvents.entityInteracted('minecraft:bucket', event => {
   if(event.target.type != 'minecraft:goat') return
   event.item.count--
   event.player.giveInHand('minecraft:milk_bucket')
