@@ -1,0 +1,31 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "base_fluid": {
+    "amount": 300,
+    "ingredient": {
+      "tag": "#c:water"
+    },
+    "unit": "millibuckets"
+  },
+  "experience": 1.0,
+  "fermenting_time": 1200,
+  "ingredients": [
+    {
+      "item": "landfallessentials:malt"
+    },
+    {
+      "item": "landfallessentials:malt"
+    },
+    {
+      "item": "landfallessentials:malt"
+    },
+    {
+      "item": "landfallessentials:malt"
+    }
+  ],
+  "result": {
+    "amount": 300,
+    "id": "landfallessentials:malt_brew"
+  },
+  "unit": "millibuckets"
+}

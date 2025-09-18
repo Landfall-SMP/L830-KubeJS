@@ -1,0 +1,17 @@
+{
+  "type": "brewinandchewin:keg_pouring",
+  "can_fill": false,
+  "container": {
+    "count": 1,
+    "id": "minecraft:barrier"
+  },
+  "fluid": {
+    "amount": 100,
+    "id": "landfallessentials:malt_brew"
+  },
+  "output": {
+    "count": 1,
+    "id": "minecraft:barrier"
+  },
+  "unit": "millibuckets"
+}

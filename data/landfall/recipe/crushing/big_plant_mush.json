@@ -1,0 +1,15 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "tag": "landfall:big_mushable"
+    }
+  ],
+  "processing_time": 150,
+  "results": [
+    {
+      "id": "landfallessentials:malt",
+      "count": 4
+    }
+  ]
+}
