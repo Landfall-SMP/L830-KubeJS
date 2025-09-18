@@ -6,12 +6,12 @@
     {
       "type": "fluid_stack",
       "amount": 500,
-      "fluid": "landfallessentials:kerosene"
+      "fluid": "landfallessentials:ethanol"
     },
     {
       "type": "fluid_stack",
       "amount": 500,
-      "fluid": "landfallessentials:heavy_oil"
+      "fluid": "landfallessentials:seed_oil"
     }
   ],
   "results": [

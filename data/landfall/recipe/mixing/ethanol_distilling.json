@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "type": "fluid_tag",
+      "amount": 100,
+      "fluid_tag": "landfall:can_distill_to_ethanol"
+    }
+  ],
+  "results": [
+    {
+      "amount": 30,
+      "id": "landfallessentials:ethanol"
+    }
+
+  ]
+}

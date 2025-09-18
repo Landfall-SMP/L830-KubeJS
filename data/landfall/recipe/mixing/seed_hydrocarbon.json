@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 200,
+      "fluid": "landfallessentials:seed_oil"
+    }
+  ],
+  "results": [
+    {
+      "id": "landfallessentials:raw_hydrocarbons"
+    }
+
+  ]
+}
