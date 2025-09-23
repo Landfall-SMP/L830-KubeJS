@@ -1,6 +1,7 @@
 # worldgen_tag landfall:biome/renewable_lapis
 {
 "values": [
-"minecraft:plains"
+"terralith:moonlight_valley",
+"terralith:lavender_valley"
 ]
 }

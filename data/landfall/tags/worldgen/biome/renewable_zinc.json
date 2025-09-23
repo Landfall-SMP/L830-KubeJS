@@ -1,6 +1,7 @@
-# worldgen_tag landfall:biome/renewable_zinc
+  # worldgen_tag landfall:biome/renewable_zinc
 {
 "values": [
-"minecraft:plains"
+       "minecraft:windswept_savanna",
+        "terralith:yellowstone"
 ]
 }

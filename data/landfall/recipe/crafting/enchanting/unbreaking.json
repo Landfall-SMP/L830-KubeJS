@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+        "item": "minecraft:obsidian"
+      },
+
+    "X": {
+      "item": "minecraft:lapis_lazuli"
+    },
+
+    "B": {
+      "item": "landfallessentials:blank_enchanted_book"
+    }
+
+  },
+  "pattern": [
+    "X#X",
+    "#B#",
+    "X#X"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {"unbreaking": 1}
+      }
+    }
+  }
+}

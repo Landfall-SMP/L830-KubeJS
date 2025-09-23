@@ -1,0 +1,26 @@
+{
+  "type": "create_mechanical_extruder:extruding",
+  "result": {
+    "id": "landfallessentials:extracted_diamond_clump"
+  },
+  "blockIngredients": {
+    "first": {
+      "blocks": "minecraft:lava"
+    },
+    "second": {
+      "blocks": "landfallessentials:crude_oil"
+    }
+  },
+  "requirements": [
+    {
+      "type": "mechanicals:biome_tag",
+      "value": "landfall:renewable_diamond"
+    }
+  ],
+  "catalyst": {
+    "blocks": "create:blaze_burner",
+    "state": {
+      "blaze": "kindled"
+    }
+  }
+}

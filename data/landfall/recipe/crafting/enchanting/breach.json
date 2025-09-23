@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+        "item": "minecraft:iron_axe"
+      },
+
+    "X": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "L": {
+      "item": "minecraft:iron_sword"
+    },
+
+    "B": {
+      "item": "landfallessentials:blank_enchanted_book"
+    }
+
+  },
+  "pattern": [
+    "XLX",
+    "#B#",
+    "XLX"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {"breach": 1}
+      }
+    }
+  }
+}

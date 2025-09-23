@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+        "item": "minecraft:spider_eye"
+      },
+
+    "X": {
+      "item": "minecraft:lapis_lazuli"
+    },
+
+    "B": {
+      "item": "landfallessentials:blank_enchanted_book"
+    }
+
+  },
+  "pattern": [
+    "X#X",
+    "#B#",
+    "X#X"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {"bane_of_arthropods": 1}
+      }
+    }
+  }
+}

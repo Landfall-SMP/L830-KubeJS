@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+        "item": "minecraft:fire_charge"
+      },
+    "E": {
+        "item": "minecraft:arrow"
+      },
+
+    "X": {
+      "item": "minecraft:lapis_lazuli"
+    },
+
+    "B": {
+      "item": "landfallessentials:blank_enchanted_book"
+    }
+
+  },
+  "pattern": [
+    "X#E",
+    "#B#",
+    "E#X"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {"flame": 1}
+      }
+    }
+  }
+}

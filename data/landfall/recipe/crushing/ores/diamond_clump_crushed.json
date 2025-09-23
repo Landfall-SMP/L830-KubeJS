@@ -2,14 +2,14 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "landfallessentials:extracted_emerald_clump"
+      "item": "landfallessentials:extracted_diamond_clump"
     }
   ],
   "processing_time": 250,
   "results": [
     {
       "chance": 0.8,
-      "id": "landfallessentials:crushed_emerald_clump"
+      "id": "landfallessentials:crushed_diamond_clump"
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+        "item": "minecraft:water_bucket"
+      },
+    "E": {
+        "item": "minecraft:lapis_block"},
+
+    "X": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "P": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "L": {
+      "item": "minecraft:arrow"
+    },
+
+    "B": {
+      "item": "landfallessentials:blank_enchanted_book"
+    }
+
+  },
+  "pattern": [
+    "XLE",
+    "#B#",
+    "EPX"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {"riptide": 1}
+      }
+    }
+  }
+}

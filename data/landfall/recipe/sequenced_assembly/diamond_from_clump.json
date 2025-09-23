@@ -1,30 +1,26 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": {
-    "item": "landfallessentials:crushed_emerald_clump"
+    "item": "landfallessentials:crushed_diamond_clump"
   },
   "loops": 2,
   "results": [
     {
-      "id": "minecraft:emerald",
-      "count": 4,
-      "chance": 9.0
+      "id": "minecraft:diamond",
+      "count": 1,
+      "chance": 1.0
     },
     {
-      "chance": 0.2,
+      "chance": 0.3,
       "id": "minecraft:tuff"
     },
     {
-      "chance": 0.2,
+      "chance": 0.3,
       "id": "minecraft:cobblestone"
     },
     {
-      "chance": 0.2,
+      "chance": 0.3,
       "id": "minecraft:cobbled_deepslate"
-    },
-    {
-      "chance": 0.2,
-      "id": "minecraft:blue_dye"
     }
 
   ],
@@ -33,12 +29,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "landfallessentials:crushed_emerald_clump"
+          "item": "landfallessentials:crushed_diamond_clump"
         }
       ],
       "results": [
         {
-          "id": "landfallessentials:crushed_emerald_clump"
+          "id": "landfallessentials:crushed_diamond_clump"
         }
       ]
     },
@@ -46,12 +42,12 @@
       "type": "create:pressing",
       "ingredients": [
         {
-          "item": "landfallessentials:crushed_emerald_clump"
+          "item": "landfallessentials:crushed_diamond_clump"
         }
       ],
       "results": [
         {
-          "id": "landfallessentials:crushed_emerald_clump"
+          "id": "landfallessentials:crushed_diamond_clump"
         }
       ]
     },
@@ -59,7 +55,7 @@
       "type": "create:filling",
       "ingredients": [
         {
-          "item": "landfallessentials:crushed_emerald_clump"
+          "item": "landfallessentials:crushed_diamond_clump"
         },
         {
           "type": "fluid_stack",
@@ -69,12 +65,12 @@
       ],
       "results": [
         {
-          "id": "landfallessentials:crushed_emerald_clump"
+          "id": "landfallessentials:crushed_diamond_clump"
         }
       ]
     }
   ],
   "transitional_item": {
-    "id": "landfallessentials:crushed_emerald_clump"
+    "id": "landfallessentials:crushed_diamond_clump"
   }
 }

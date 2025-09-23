@@ -1,6 +1,6 @@
-# worldgen_tag landfall:biome/renewable_gold
+
 {
 "values": [
-"minecraft:plains"
+"terralith:stony_spires"
 ]
 }

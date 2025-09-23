@@ -1,0 +1,79 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:book"
+  },
+  "loops": 5,
+  "results": [
+    {
+      "id": "landfallessentials:blank_enchanted_book"
+    }
+  ],
+  "sequence": [
+
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:lapis_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:book"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:lapis_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:book"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        },
+        {
+          "item": "minecraft:lapis_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:book"
+        }
+      ]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "minecraft:book"
+        }
+      ],
+      "results": [
+        {
+          "id": "minecraft:book"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "minecraft:book"
+  }
+}

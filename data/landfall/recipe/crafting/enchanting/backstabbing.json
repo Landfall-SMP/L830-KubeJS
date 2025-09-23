@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+        "item": "minecraft:iron_ingot"
+      },
+    "E": {
+        "item": "minecraft:lapis_block"},
+
+    "X": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "L": {
+      "item": "farmersdelight:iron_knife"
+    },
+
+    "B": {
+      "item": "landfallessentials:blank_enchanted_book"
+    }
+
+  },
+  "pattern": [
+    "XLE",
+    "#B#",
+    "E#X"
+  ],
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "levels": {"farmersdelight:backstabbing": 1}
+      }
+    }
+  }
+}

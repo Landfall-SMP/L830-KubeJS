@@ -1,6 +1,7 @@
-# worldgen_tag landfall:biome/renewable_copper
+
 {
 "values": [
-"minecraft:plains"
+"terralith:highlands"
+"terralith:temperate_highlands"
 ]
 }

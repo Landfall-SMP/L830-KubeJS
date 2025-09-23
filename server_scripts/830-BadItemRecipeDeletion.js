@@ -7,5 +7,6 @@ event.remove({ id: 'create_mechanical_extruder:extruding/advanced_netherrack'}),
 event.remove({ id: 'create_mechanical_extruder:extruding/advanced_end_stone'}),
 event.remove({ id: 'create_mechanical_extruder:extruding/obsidian'}),
 event.remove({ id: 'create_mechanical_extruder:extruding/end_stone'})
+event.remove({ id: 'minecraft:enchanting_table'})
 
 })
