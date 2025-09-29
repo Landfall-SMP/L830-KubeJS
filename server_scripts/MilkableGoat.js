@@ -14,6 +14,10 @@ ItemEvents.entityInteracted('minecraft:bucket', event => {
   event.player.giveInHand('minecraft:milk_bucket')
   event.target.playSound('minecraft:entity.cow.milk')
 })
+ItemEvents.entityInteracted(event => {
+  if(event.target.type != 'minecraft:villager') return
+  event.cancel();
+})
 
 LootJS.lootTables(event => {
     event.modifyEntityTables("minecraft:goat").createPool(pool => {
