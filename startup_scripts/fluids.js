@@ -3,5 +3,4 @@ StartupEvents.registry('fluid', event => {
     .displayName('Molten Slag')
     .tint(0x5E574E)
     .noBlock()
-    .noBucket()
 })

@@ -13,15 +13,16 @@ const fluid_properties = {
   osmium: { color: osmium },
   bronze: { color: bronze },*/
   zinc: { color: zinc },
+/*
   brass: { color: brass },
-  enderium: { color: enderium },/*
+  enderium: { color: enderium },
   lumium: { color: lumium },
-  invar: { color: invar },*/
-  redstone_slurry: { color: redstone_slurry },/*
-  uranium: { color: uranium },*/
+  invar: { color: invar },
+  redstone_slurry: { color: redstone_slurry },
+  uranium: { color: uranium },
   aqua_regia: {color: aqua_regia},
   abyssal_brine: {color: abyssal_brine},
-  crystaline_polish: {color: crystaline_polish},
+  crystaline_polish: {color: crystaline_polish},*/
 };
 
 global.fluid_mats = [
@@ -38,18 +39,16 @@ global.fluid_mats = [
   "constantan",
   "osmium",
   "bronze",*/
-  "zinc",
+  "zinc",/*
   "brass",
-  "enderium",/*
+  "enderium",
   "lumium",
-  "invar",*/
-  "redstone_slurry",/*
+  "invar",
+  "redstone_slurry",
   "uranium",*/
 ];
 global.fluid_customs = [
- "aqua_regia",
- "abyssal_brine",
- "crystaline_polish",
+
 ];
 
 StartupEvents.registry("fluid", (event) => {
@@ -57,7 +56,7 @@ StartupEvents.registry("fluid", (event) => {
     event
       .create(`molten_${mat}`, 'thick')
       .tint(fluid_properties[mat].color)
-      .noBucket()
+
       .noBlock();
 
   }
@@ -68,7 +67,7 @@ StartupEvents.registry("fluid", (event) => {
     event
       .create(`${mat}`, 'thin')
       .tint(fluid_properties[mat].color)
-      .noBucket()
+
       .noBlock();
 
   }
