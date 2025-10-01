@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+        "item": "minecraft:phantom_membrane"
+      },
+
+    "X": {
+      "item": "minecraft:feather"
+    },
+
+    "B": {
+      "item": "create:industrial_iron_block"
+    }
+
+  },
+  "pattern": [
+    "X#X",
+    "#B#",
+    "X#X"
+  ],
+  "result": {
+    "id": "deepspace:angel_block"
+
+  }
+}

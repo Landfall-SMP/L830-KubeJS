@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:firework_rocket"
+    },
+    {
+      "type": "fluid_stack",
+      "amount": 100,
+      "fluid": "kubejs:molten_copper"
+    }
+  ],
+  "results": [
+    {
+      "id": "deepspace:rocket_booster"
+    }
+  ]
+}

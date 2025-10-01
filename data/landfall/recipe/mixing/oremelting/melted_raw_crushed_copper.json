@@ -3,18 +3,17 @@
   "heat_requirement": "heated",
   "ingredients": [
     {
-      "item": "landfallessentials:crushed_quartz_clump"
+      "item": "create:crushed_raw_copper"
     }
   ],
   "results": [
-
     {
-      "count": 1,
-      "id": "minecraft:quartz"
+      "amount": 100,
+      "id": "kubejs:molten_copper"
     },
     {
       "amount": 10,
-      "id": "minecraft:lava"
+      "id": "kubejs:molten_slag"
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "type": "create:mechanical_crafting",
+  "accept_mirrored": false,
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "create:brass_ingot"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "T": {
+      "item": "create:fluid_tank"
+    },
+    "A": {
+      "item": "create:andesite_alloy"
+    }
+  },
+  "pattern": [
+    " CCC ",
+    "NCGCN",
+    " ATA ",
+    "  N  "
+
+  ],
+  "result": {
+    "count": 1,
+    "id": "deepspace:jet_helmet"
+  },
+  "show_notification": false
+}
