@@ -1,4 +1,4 @@
-//Priority: 10
+Priority: 10
 //Script must have high priority, otherwise colors may load too late.
 
 //Minecraft
