@@ -3,4 +3,23 @@ StartupEvents.registry('fluid', event => {
     .displayName('Molten Slag')
     .tint(0x5E574E)
     .noBlock()
+
+    event.create('molten_iron', 'thick')
+        .displayName('Molten Iron')
+        .tint(0xd8d8d8)
+        .noBlock()
+
+    event.create('molten_copper', 'thick')
+            .displayName('Molten Copper')
+            .tint(0xc15a36)
+            .noBlock()
+    event.create('molten_gold', 'thick')
+                .displayName('Molten Gold')
+                .tint(0xfdf55f)
+                .noBlock()
+    event.create('molten_zinc', 'thick')
+                    .displayName('Molten Zinc')
+                    .tint(0x96b685)
+                    .noBlock()
 })
+
