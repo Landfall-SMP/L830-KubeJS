@@ -6,12 +6,10 @@ event.remove({ type: 'createoreexcavation:extracting' })
 event.custom(
 {
   "type": "createoreexcavation:vein",
-  "amountMultiplierMax": 2.0,
-  "amountMultiplierMin": 1.0,
+  "amountMultiplierMax": 40.0,
+  "amountMultiplierMin": 35.0,
   "biomeWhitelist": "c:is_ocean",
   "finite": "always",
-  "amountMultiplierMin": 0.5,
-  "amountMultiplierMax": 0.20,
   "icon": {
     "count": 1,
     "id": "landfallessentials:crude_oil_bucket"
@@ -32,12 +30,12 @@ event.custom(
     "tag": "createoreexcavation:drills"
   },
   "output": {
-    "amount": 500,
+    "amount": 100,
     "id": "landfallessentials:crude_oil"
   },
   "priority": 1,
   "stress": 256,
-  "ticks": 20,
+  "ticks": 400,
   "veinId": "landfall:oil_vein"
 }
 )
@@ -58,6 +56,12 @@ event.custom(
     		.id("landfall:diamond_vein")
     	event.recipes.createoreexcavation.drilling('landfallessentials:extracted_diamond_clump', 'landfall:diamond_vein', 100)
     		.stress(512).id("landfall:diamond_extraction");
+
+    		  event.recipes.createoreexcavation.vein('{"text": "Anceint Debris Node"}', 'minecraft:ancient_debris')
+                		.placement(100, 50, 6894685).alwaysFinite().veinSize(3, 8.5).biomeWhitelist('c:is_nether')
+                		.id("landfall:netherite_vien")
+                	event.recipes.createoreexcavation.drilling('minecraft:ancient_debris', 'landfall:netherite_vien', 300)
+                		.stress(1024).id("landfall:netherite_extraction");
 
 
     event.recipes.createoreexcavation.vein('{"text": "Lapis Node"}', 'landfallessentials:extracted_lapis_clump')
