@@ -1,0 +1,18 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "create:scoria"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:veridium",
+      "count": 1
+    }
+  ]
+}
