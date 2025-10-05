@@ -17,8 +17,8 @@ event.custom(
   "name": "{\"translate\":\"fluid.landfallessentials.crude_oil\"}",
   "placement": {
     "salt": 1195889335,
-    "separation": 16,
-    "spacing": 32
+    "separation": 8,
+    "spacing": 16
   },
   "priority": 0
 }
@@ -52,7 +52,7 @@ event.custom(
         	.stress(512).id("landfall:copper_extraction");
 
     event.recipes.createoreexcavation.vein('{"text": "Diamond Node"}', 'landfallessentials:extracted_diamond_clump')
-    		.placement(16, 8, 6894685).veinSize(3, 8.5).biomeWhitelist('landfall:renewable_diamond')
+    		.placement(4, 2, 6894685).veinSize(3, 8.5).biomeWhitelist('landfall:renewable_diamond')
     		.id("landfall:diamond_vein")
     	event.recipes.createoreexcavation.drilling('landfallessentials:extracted_diamond_clump', 'landfall:diamond_vein', 100)
     		.stress(512).id("landfall:diamond_extraction");
