@@ -14,13 +14,13 @@
     "monster": [
       {
         "type": "minecraft:piglin_brute",
-        "weight": 10,
+        "weight": 100,
         "minCount": 1,
         "maxCount": 1
       },
       {
         "type": "minecraft:piglin",
-        "weight": 100,
+        "weight": 1000,
         "minCount": 4,
         "maxCount": 7
       }

@@ -14,19 +14,19 @@
     "monster": [
       {
         "type": "minecraft:blaze",
-        "weight": 10,
+        "weight": 100,
         "minCount": 1,
         "maxCount": 3
       },
       {
         "type": "minecraft:zombified_piglin",
-        "weight": 40,
+        "weight": 400,
         "minCount": 3,
         "maxCount": 5
       },
       {
         "type": "minecraft:wither_skeleton",
-        "weight": 20,
+        "weight": 200,
         "minCount": 2,
         "maxCount": 4
       }
