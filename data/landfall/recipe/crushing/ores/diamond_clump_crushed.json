@@ -8,7 +8,7 @@
   "processing_time": 250,
   "results": [
     {
-      "chance": 0.4,
+      "chance": 0.05,
       "id": "landfallessentials:crushed_diamond_clump"
     }
   ]
