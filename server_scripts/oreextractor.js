@@ -42,13 +42,13 @@ event.custom(
 	event.recipes.createoreexcavation.vein('{"text": "Gold Node"}', 'landfallessentials:extracted_gold_clump')
 		.placement(16, 8, 6894685).veinSize(3, 8.5).biomeWhitelist('landfall:renewable_gold')
 		.id("landfall:gold_vein")
-	event.recipes.createoreexcavation.drilling('landfallessentials:extracted_gold_clump', 'landfall:gold_vein', 100)
+	event.recipes.createoreexcavation.drilling('landfallessentials:extracted_gold_clump', 'landfall:gold_vein', 500)
 		.stress(512).id("landfall:gold_extraction");
 
 	event.recipes.createoreexcavation.vein('{"text": "Copper Node"}', 'landfallessentials:extracted_copper_clump')
         	.placement(16, 8, 6894685).veinSize(3, 8.5).biomeWhitelist('landfall:renewable_copper')
         	.id("landfall:copper_vein")
-    event.recipes.createoreexcavation.drilling('landfallessentials:extracted_copper_clump', 'landfall:copper_vein', 100)
+    event.recipes.createoreexcavation.drilling('landfallessentials:extracted_copper_clump', 'landfall:copper_vein', 500)
         	.stress(512).id("landfall:copper_extraction");
 
     event.recipes.createoreexcavation.vein('{"text": "Diamond Node"}', 'landfallessentials:extracted_diamond_clump')
