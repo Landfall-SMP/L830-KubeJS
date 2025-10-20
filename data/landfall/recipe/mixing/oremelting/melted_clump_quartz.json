@@ -1,7 +1,31 @@
 {
-  "type": "create:mixing",
+  "type": "create:compacting",
   "heat_requirement": "heated",
   "ingredients": [
+    {
+      "item": "landfallessentials:crushed_quartz_clump"
+    },
+    {
+      "item": "landfallessentials:crushed_quartz_clump"
+    },
+    {
+      "item": "landfallessentials:crushed_quartz_clump"
+    },
+    {
+      "item": "landfallessentials:crushed_quartz_clump"
+    },
+    {
+      "item": "landfallessentials:crushed_quartz_clump"
+    },
+    {
+      "item": "landfallessentials:crushed_quartz_clump"
+    },
+    {
+      "item": "landfallessentials:crushed_quartz_clump"
+    },
+    {
+      "item": "landfallessentials:crushed_quartz_clump"
+    },
     {
       "item": "landfallessentials:crushed_quartz_clump"
     }
@@ -10,10 +34,10 @@
 
     {
       "count": 1,
-      "id": "minecraft:quartz"
+      "id": "minecraft:quartz_block"
     },
     {
-      "amount": 10,
+      "amount": 100,
       "id": "minecraft:lava"
     }
   ]

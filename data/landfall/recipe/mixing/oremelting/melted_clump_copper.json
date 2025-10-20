@@ -8,11 +8,11 @@
   ],
   "results": [
     {
-      "amount": 50,
+      "amount": 5,
       "id": "kubejs:molten_copper"
     },
     {
-      "amount": 10,
+      "amount": 1,
       "id": "kubejs:molten_slag"
     }
   ]

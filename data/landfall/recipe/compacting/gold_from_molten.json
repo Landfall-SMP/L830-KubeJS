@@ -3,13 +3,13 @@
   "ingredients": [
     {
       "type": "fluid_stack",
-      "amount": 1000,
+      "amount": 500,
       "fluid": "kubejs:molten_gold"
     }
   ],
   "results": [
     {
-      "id": "minecraft:gold_block",
+      "id": "minecraft:gold_ingot",
       "count": 1
     }
   ]

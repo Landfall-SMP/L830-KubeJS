@@ -11,15 +11,15 @@
       "chance": 1.0
     },
     {
-      "chance": 1.0,
+      "chance": 24,
       "id": "minecraft:tuff"
     },
     {
-      "chance": 1.0,
+      "chance": 25,
       "id": "minecraft:cobblestone"
     },
     {
-      "chance": 1.0,
+      "chance": 25,
       "id": "minecraft:cobbled_deepslate"
     }
 

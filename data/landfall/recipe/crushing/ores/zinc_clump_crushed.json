@@ -8,7 +8,7 @@
   "processing_time": 250,
   "results": [
     {
-      "chance": 0.1,
+      "chance": 0.05,
       "id": "landfallessentials:crushed_zinc_clump"
     }
   ]

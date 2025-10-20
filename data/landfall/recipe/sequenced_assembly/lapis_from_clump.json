@@ -8,22 +8,22 @@
     {
       "id": "minecraft:lapis_lazuli",
       "count": 1,
-      "chance": 1.0
+      "chance": 50
     },
     {
-      "chance": 0.2,
+      "chance": 15,
       "id": "minecraft:tuff"
     },
     {
-      "chance": 0.2,
+      "chance": 15,
       "id": "minecraft:cobblestone"
     },
     {
-      "chance": 0.2,
+      "chance": 15,
       "id": "minecraft:cobbled_deepslate"
     },
     {
-      "chance": 0.2,
+      "chance": 5,
       "id": "minecraft:blue_dye"
     }
 
