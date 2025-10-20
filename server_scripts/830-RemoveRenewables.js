@@ -11,6 +11,9 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'create:crushing/tuff' }) //Source of every metal
 
   event.remove({ id: 'create:crushing/tuff_recycling' }) //Source of every metal
+  event.remove({ id: 'create:crushing/diorite' }) //Source of quartz
+  event.remove({ id: 'create:crushing/diorite_recycling' }) //Source of quartz
+  event.remove({ id: 'create:crushing/amethyst_cluster' }) //amethyst dupe
 
 
 
