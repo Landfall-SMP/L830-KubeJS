@@ -58,9 +58,9 @@ event.custom(
     		.stress(512).id("landfall:diamond_extraction");
 
     		  event.recipes.createoreexcavation.vein('{"text": "Anceint Debris Node"}', 'minecraft:ancient_debris')
-                		.placement(100, 50, 6894685).alwaysFinite().veinSize(3, 8.5).biomeWhitelist('c:is_nether')
+                		.placement(100, 50, 6894685).veinSize(3, 8.5).biomeWhitelist('c:is_nether')
                 		.id("landfall:netherite_vien")
-                	event.recipes.createoreexcavation.drilling('minecraft:ancient_debris', 'landfall:netherite_vien', 100)
+                	event.recipes.createoreexcavation.drilling('landfallessentials:extracted_ancient_clump', 'landfall:netherite_vien', 3200)
                 		.stress(1024).id("landfall:netherite_extraction");
 
 

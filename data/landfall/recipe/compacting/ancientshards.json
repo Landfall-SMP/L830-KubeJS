@@ -1,0 +1,31 @@
+{
+  "type": "create:compacting",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "landfallessentials:crushed_ancient_shards"
+    },{
+      "item": "landfallessentials:crushed_ancient_shards"
+    },{
+      "item": "landfallessentials:crushed_ancient_shards"
+    },{
+      "item": "landfallessentials:crushed_ancient_shards"
+    },{
+      "item": "landfallessentials:crushed_ancient_shards"
+    },{
+      "item": "landfallessentials:crushed_ancient_shards"
+    },{
+      "item": "landfallessentials:crushed_ancient_shards"
+    },{
+      "item": "landfallessentials:crushed_ancient_shards"
+    },{
+      "item": "landfallessentials:crushed_ancient_shards"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:ancient_debris",
+      "count": 1
+    }
+  ]
+}
